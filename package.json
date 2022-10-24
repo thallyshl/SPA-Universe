@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server"
+    "start": "npm run lite",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,7 @@
     "url": "https://github.com/ja1antonio/SPA-Universe/issues"
   },
   "homepage": "https://github.com/ja1antonio/SPA-Universe#readme",
-  "dependencies": {
+  "devDependencies": {
     "lite-server": "^2.6.1"
   }
 }
